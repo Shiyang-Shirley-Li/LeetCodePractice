@@ -1,6 +1,6 @@
 Tag: Array, Stack, String, Math, Hash Table, Two Points, tree, dfs, bfs, dp
 
-Programming language: Java
+Programming language: Python 3
 
 easy -> medium
 
