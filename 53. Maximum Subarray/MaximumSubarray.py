@@ -1,11 +1,11 @@
-'''
+"""
 Tag: Array
 Difficulty: Easy
 Approach: DP
 Analysis: This is an optimization problem, which can be usually solved by DP. 
           1. Find sub problem
           2. Find the limitation
-'''
+"""
 
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
