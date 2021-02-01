@@ -1,0 +1,40 @@
+"""
+Tag: String
+Difficulty: easy
+"""
+
+class Solution:
+    def romanToInt(self, s: str) -> int:
+        numList = []
+        for symbol in s:
+            if symbol is 'I':
+                numList.append(1)
+            elif symbol is 'V':
+                numList.append(5)
+            elif symbol is 'X':
+                numList.append(10)
+            elif symbol is 'L':
+                numList.append(50)
+            elif symbol is 'C':
+                numList.append(100)
+            elif symbol is 'D':
+                numList.append(500)
+            elif symbol is 'M':
+                numList.append(1000)
+        
+        preNum = 0
+        sum = 0
+        for num in reversed(numList):
+            if num < preNum:
+                sum -= num
+                preNum = num
+            else:
+                sum += num
+                preNum = num
+        return sum
+        
+"""
+Conclusion:
+  1. Remember to change preNum
+  2. reversed() method
+"""
