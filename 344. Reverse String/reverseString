@@ -1,0 +1,24 @@
+"""
+ Tag: string
+ Difficulty: easy
+"""
+
+class Solution:
+    def reverseString(self, s: List[str]) -> None:
+        """
+        Do not return anything, modify s in-place instead.
+        """
+        sLen = len(s)
+        sHalfLen = sLen//2
+        
+        for i in range(0,sHalfLen):
+            temp = s[i]
+            s[i] = s[sLen - 1]
+            s[sLen - 1] = temp
+            sLen-=1
+
+"""
+Conclusion:
+  1. // for integer division
+  2. range(i, j), which is "," between the ranges
+"""
