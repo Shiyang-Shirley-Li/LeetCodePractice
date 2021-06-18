@@ -51,5 +51,4 @@ public class CountPrimes204 {
  *    we only need to consider factors up to √n because, if n is divisible by some number p, 
  *    then n = p × q and since p ≤ q, we could derive that p ≤ √n. Our total runtime has now 
  *    improved to O(n1.5), which is slightly better. 
- * 
  */
