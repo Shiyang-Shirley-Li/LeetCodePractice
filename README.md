@@ -1,4 +1,5 @@
 Tag: Array, Stack, String, Math, Hash Table, Two Points, tree, dfs, bfs, dp
+     Recursion, Divide & Conquer, Backtracking, DP, Greedy Algorithms, LP, Graphs, BFS, DFS 
 
 Programming language: Python 3 / Java
 
